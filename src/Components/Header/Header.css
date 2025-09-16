@@ -1,0 +1,39 @@
+#header {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff49;
+}
+
+#header nav {
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+#header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#header ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    transition: all .2s ease;
+}
+
+#header ul a:hover {
+    color: yellow;
+}
+
+#header ul a.active {
+    color: #7fff00;
+}
+
+/* @media (max-width: 550px) {
+    #header ul a {
+        font-size: 14px;
+    }
+} */
